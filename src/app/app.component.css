@@ -46,6 +46,10 @@ small {
   justify-self: start;
   align-self: center;
   grid-area: description;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
 }
 
 .delete-icon {
